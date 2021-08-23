@@ -1,12 +1,10 @@
-class month{
+class arraysquare{
  public static void main(String[] args) {
  
- int sum=0;
- for(int i=40;i<250;i++){
-  if(i%5==0){
- sum=sum+i;
+ for(int x=0;x<10;x++){
+  int j=Integer.parseInt(args[x]);
+  System.out.println(Math.pow(j,2));
  }
-  }
-System.out.println(sum);
+
  }
 }
